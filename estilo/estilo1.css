@@ -1,0 +1,92 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      display: grid;
+      grid-template-areas:
+        "header header"
+        "nav nav"
+        "aside main"
+        "footer footer";
+      grid-template-columns: 1fr 3fr;
+    }
+
+    header {
+      grid-area: header;
+background-size:cover;
+background-position:center;
+color: blue;
+padding: 3em;
+text-align:center;
+position: relative;
+background-image: url("../imagen/fondo1.jpg");
+  }
+.encabezado-texto {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 1em;
+border-radius: 10px;
+display: inline-block;
+}
+    nav {
+      grid-area: nav;
+      background-color: #333;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      padding: 1em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    aside {
+      grid-area: aside;
+      background-color: #f4f4f4;
+      padding: 1em;
+ background-color:orange;
+ border-radius:30px 30px 30px 30px;
+ width:300px;
+ height:98%;
+ border: solid;
+    }
+
+    main {
+      grid-area: main;
+      padding: 1em;
+    }
+
+    footer {
+      grid-area: footer;
+      background-color: #ddd;
+      text-align: center;
+      padding: 1em;
+    }
+
+    article {
+      margin-bottom: 2em;
+    }
+
+    form {
+      background-color: #e2e2e2;
+      padding: 6em;
+      border-radius: 8px;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 0.2em;
+      margin-bottom: 0.2em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      height
+    }
+
+    
